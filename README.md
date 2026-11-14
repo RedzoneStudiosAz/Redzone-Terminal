@@ -1,8 +1,7 @@
 <div align="center">
 
-# REDZONE TERMINAL V1
+# 🔴 REDZONE TERMINAL V1
 **S Y S T E M    C O N T R O L    &    T E L E M E T R Y**
-
 
 [![PowerShell](https://img.shields.io/badge/PowerShell-7+-5391FE?style=for-the-badge&logo=powershell&logoColor=white)](https://github.com/PowerShell/PowerShell)
 [![Windows](https://img.shields.io/badge/Windows-10%20%7C%2011-0078D6?style=for-the-badge&logo=windows&logoColor=white)](https://www.microsoft.com/windows)
@@ -17,6 +16,7 @@
 ---
 
 ## 📸 Preview
+
 <img width="1360" height="715" alt="Redzone Terminal Preview" src="https://github.com/user-attachments/assets/e1155a8f-c92f-4c5d-ae6b-f0ba3edee84d" />
 
 ---
@@ -32,7 +32,6 @@
 
 ## 🚀 Installation
 
-### Option 1: One-Line Quick Install (Recommended)
 Open **PowerShell** (as Administrator is recommended for `winget` & registry changes) and run:
 
 ```powershell
