@@ -16,7 +16,7 @@
 ---
 
 ## 📸 Preview
-![Redzone Terminal](Redzone-Terminal.png)
+https://github.com/user-attachments/assets/e1155a8f-c92f-4c5d-ae6b-f0ba3edee84d
 
 ---
 
