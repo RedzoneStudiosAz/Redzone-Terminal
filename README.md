@@ -71,9 +71,9 @@ Redzone Terminal persists your language choice in `~/.redzone_lang`:
 If you ever want to revert your PowerShell profile back to default:
 
 ```powershell
-
-```
 https://raw.githubusercontent.com/redzonestudiosdeveloper-ai/Redzone-Terminal/refs/heads/main/uninstaller.ps1
+```
+
 ---
 
 ## 📄 License
