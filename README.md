@@ -15,13 +15,6 @@
 
 ---
 
-## 📸 Preview
-
-> **Not:** Buraya terminalinin ekran görüntüsünü (ekran görüntüsünü GitHub issue/yorum alanına sürükleyip linkini kopyalayarak) ekleyebilirsin:
-> `![Redzone Terminal Preview](https://user-images.githubusercontent.com/...)`
-
----
-
 ## ✨ Features
 
 - **⚡ One-Click Provisioning:** Automatically checks and installs **PowerShell 7** and **Windows Terminal** via `winget`, setting Windows Terminal as your system's default console.
