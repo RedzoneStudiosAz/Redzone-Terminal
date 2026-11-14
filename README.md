@@ -15,6 +15,11 @@
 
 ---
 
+## 📸 Preview
+![Redzone Terminal](Redzone-Terminal.png)
+
+---
+
 ## ✨ Features
 
 - **⚡ One-Click Provisioning:** Automatically checks and installs **PowerShell 7** and **Windows Terminal** via `winget`, setting Windows Terminal as your system's default console.
