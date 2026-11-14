@@ -9,7 +9,7 @@
 
 *Turn your Windows Terminal into a sleek, dark-crimson command center with a single command.*
 
-[Features](#-features) • [Installation](#-installation) • [Commands](#-commands) • [Languages](#-supported-languages) • [Uninstall](#-uninstall)
+[Features](#-features) • [Installation](#-installation) • [Commands](#-commands) • [Languages](#-languages) • [Uninstall](#-uninstall)
 
 </div>
 
@@ -36,3 +36,46 @@ Open **PowerShell** (as Administrator is recommended for `winget` & registry cha
 
 ```powershell
 irm https://raw.githubusercontent.com/redzonestudiosdeveloper-ai/Redzone-Terminal/refs/heads/main/install.ps1 | iex
+```
+
+---
+
+## 💻 Commands
+
+Once installed, you can use the following built-in commands anywhere in your terminal:
+
+| Command | Alias | Description |
+| :--- | :--- | :--- |
+| `Show-RedzoneDashboard` | `rz` / `redzone` | Clears the screen and refreshes the live system dashboard. |
+| `Set-RedzoneLanguage` | `lang` | Lists all available languages and highlights the active one. |
+| `Set-RedzoneLanguage <code>` | `lang tr` | Switches dashboard language immediately (e.g., `lang en`, `lang az`). |
+
+---
+
+## 🌐 Languages
+
+Redzone Terminal persists your language choice in `~/.redzone_lang`:
+
+| Code | Language | Code | Language |
+| :--- | :--- | :--- | :--- |
+| `en` | English *(Default)* | `fr` | Français |
+| `az` | Azərbaycan | `es` | Español |
+| `tr` | Türkçe | `ar` | العربية |
+| `ru` | Русский | `zh` | 中文 |
+| `de` | Deutsch | `ja` | 日本語 |
+
+---
+
+## 🗑️ Uninstall
+
+If you ever want to revert your PowerShell profile back to default:
+
+```powershell
+
+```
+
+---
+
+## 📄 License
+
+Distributed under the MIT License. See `LICENSE` for more information.
