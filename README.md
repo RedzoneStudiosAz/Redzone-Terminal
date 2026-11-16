@@ -28,6 +28,8 @@
 * **👻 Ghost / Streamer Privacy Mode:** Instantly mask your username, host name, and local IP address (`[REDACTED]` / `192.168.***.***`) with `rz-ghost` before taking screenshots, recording videos, or screen sharing (`rz-ghost -stop` to disable).
 * **📊 Ultra-Fast System Telemetry:** Reads CPU, GPU, OS build, RAM/Disk usage bars, system uptime, and local IP directly from the Windows Registry and CIM for near-instant startup times.
 * **🌐 10-Language Support:** Switch the entire dashboard interface on the fly without restarting your terminal.
+* **🧹 System Maintenance:** Built-in tools like `rz-clean` for cleaning temporary files, PowerShell history, and Docker caches, plus `rz-update` for instant GitHub updates.
+*  **🗑 Clean Uninstaller:** Includes `uninstaller.ps1` to revert all terminal profiles, themes, and configuration files safely.
 
 ---
 
