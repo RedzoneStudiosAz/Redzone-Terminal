@@ -23,11 +23,11 @@
 
 ## ✨ Features
 
-- **⚡ One-Click Provisioning:** Automatically checks and installs **PowerShell 7** and **Windows Terminal** via `winget`, setting Windows Terminal as your system's default console.
-- **🎨 Live Theme Sync:** Switch between **RedzoneClassic**, **Cyberpunk**, **Matrix**, and **Minimal** themes on the fly—automatically syncing both PowerShell colors and Windows Terminal's `background`, `cursorColor`, and `tabColor` in `settings.json`.
-- **👻 Ghost / Streamer Privacy Mode:** Instantly mask your username, host name, and local IP address (`[REDACTED]` / `192.168.***.***`) with `rz-ghost` before taking screenshots, recording videos, or screen sharing (`rz-ghost -stop` to disable).
-- **📊 Ultra-Fast System Telemetry:** Reads CPU, GPU, OS build, RAM/Disk usage bars, system uptime, and local IP directly from the Windows Registry and CIM for near-instant startup times.
-- **🌐 10-Language Support:** Switch the entire dashboard interface on the fly without restarting your terminal.
+* **⚡ One-Click Provisioning:** Automatically checks and installs **PowerShell 7** and **Windows Terminal** via `winget`, setting Windows Terminal as your system's default console.
+* **🎨 Live Theme Sync:** Switch between **RedzoneClassic**, **Cyberpunk**, **Matrix**, and **Minimal** themes on the fly—automatically syncing both PowerShell colors and Windows Terminal's `background`, `cursorColor`, and `tabColor` in `settings.json`.
+* **👻 Ghost / Streamer Privacy Mode:** Instantly mask your username, host name, and local IP address (`[REDACTED]` / `192.168.***.***`) with `rz-ghost` before taking screenshots, recording videos, or screen sharing (`rz-ghost -stop` to disable).
+* **📊 Ultra-Fast System Telemetry:** Reads CPU, GPU, OS build, RAM/Disk usage bars, system uptime, and local IP directly from the Windows Registry and CIM for near-instant startup times.
+* **🌐 10-Language Support:** Switch the entire dashboard interface on the fly without restarting your terminal.
 
 ---
 
