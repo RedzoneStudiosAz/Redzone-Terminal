@@ -38,7 +38,7 @@
 Open **PowerShell** (as Administrator is recommended for `winget` & registry changes) and run:
 
 ```powershell
-irm https://raw.githubusercontent.com/redzonestudiosdeveloper-ai/Redzone-Terminal/refs/heads/main/install.ps1 | iex
+irm https://raw.githubusercontent.com/RedzoneStudiosAz/Redzone-Terminal/refs/heads/main/install.ps1 | iex
 ```
 
 ---
@@ -78,7 +78,7 @@ Redzone Terminal persists your language choice in `~/.redzone_lang`:
 If you ever want to revert your PowerShell profile back to default:
 
 ```powershell
-irm https://raw.githubusercontent.com/redzonestudiosdeveloper-ai/Redzone-Terminal/refs/heads/main/uninstaller.ps1 | iex
+irm https://raw.githubusercontent.com/RedzoneStudiosAz/Redzone-Terminal/refs/heads/main/uninstaller.ps1 | iex
 ```
 
 ---
