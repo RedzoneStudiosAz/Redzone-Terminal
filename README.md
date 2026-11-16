@@ -1,7 +1,7 @@
 <div align="center">
 
 # 🔴 REDZONE TERMINAL V2.0
-S Y S T E M   C O N T R O L   &   T E L E M E T R Y
+**S Y S T E M   C O N T R O L   &   T E L E M E T R Y**
 
 [![PowerShell](https://img.shields.io/badge/PowerShell-7+-5391FE?style=for-the-badge&logo=powershell&logoColor=white)](https://github.com/PowerShell/PowerShell)
 [![Windows](https://img.shields.io/badge/Windows-10%20%7C%2011-0078D6?style=for-the-badge&logo=windows&logoColor=white)](https://www.microsoft.com/windows)
