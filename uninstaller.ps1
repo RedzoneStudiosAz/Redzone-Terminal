@@ -1,14 +1,14 @@
 <#
 .SYNOPSIS
-    Redzone Terminal V1 Uninstaller
+    Redzone Terminal V2.0 Uninstaller
 .DESCRIPTION
-    Removes Redzone PowerShell profiles, language config, and safely resets 
+    Removes Redzone PowerShell profiles, language/theme/ghost configs, and safely resets 
     Windows Terminal color schemes across all profiles without invalid scheme errors.
 #>
 
 $ErrorActionPreference = "SilentlyContinue"
 
-Write-Host "`n🔴 REDZONE TERMINAL V1 - UNINSTALLER" -ForegroundColor Red
+Write-Host "`n🔴 REDZONE TERMINAL V2.0 - UNINSTALLER" -ForegroundColor Red
 Write-Host "────────────────────────────────────────────────────────" -ForegroundColor DarkGray
 
 # 1. Remove PowerShell 7 & Windows PowerShell Profiles
@@ -24,11 +24,18 @@ foreach ($pPath in $profilePaths) {
     }
 }
 
-# 2. Remove Language Configuration
-$langFile = "$env:USERPROFILE\.redzone_lang"
-if (Test-Path $langFile) {
-    Remove-Item $langFile -Force
-    Write-Host "[+] Removed language config (~/.redzone_lang)." -ForegroundColor Green
+# 2. Remove Language, Theme & Ghost Configuration
+$configFiles = @(
+    "$env:USERPROFILE\.redzone_lang",
+    "$env:USERPROFILE\.redzone_theme",
+    "$env:USERPROFILE\.redzone_ghost"
+)
+
+foreach ($cFile in $configFiles) {
+    if (Test-Path $cFile) {
+        Remove-Item $cFile -Force
+        Write-Host "[+] Removed config: $cFile" -ForegroundColor Green
+    }
 }
 
 # 3. Clean Windows Terminal Theme & Profile Overrides Safely
@@ -37,7 +44,7 @@ $wtPaths = @(
     "$env:LOCALAPPDATA\Packages\Microsoft.WindowsTerminalPreview_8wekyb3d8bbwe\LocalState\settings.json"
 )
 
-$propsToRemove = @("colorScheme", "useAcrylic", "opacity", "cursorShape", "cursorColor", "background")
+$propsToRemove = @("colorScheme", "useAcrylic", "opacity", "cursorShape", "cursorColor", "background", "tabColor")
 
 foreach ($wtPath in $wtPaths) {
     if (Test-Path $wtPath) {
@@ -65,7 +72,7 @@ foreach ($wtPath in $wtPaths) {
                     if ($prof.colorScheme -match "Redzone") {
                         $prof.PSObject.Properties.Remove("colorScheme")
                     }
-                    foreach ($prop in @("useAcrylic", "opacity", "cursorShape", "cursorColor", "background")) {
+                    foreach ($prop in @("useAcrylic", "opacity", "cursorShape", "cursorColor", "background", "tabColor")) {
                         if ($prof.PSObject.Properties[$prop]) {
                             $prof.PSObject.Properties.Remove($prop)
                         }
@@ -83,5 +90,5 @@ foreach ($wtPath in $wtPaths) {
 }
 
 Write-Host "────────────────────────────────────────────────────────" -ForegroundColor DarkGray
-Write-Host "✔ Redzone Terminal V1 has been completely uninstalled." -ForegroundColor Cyan
+Write-Host "✔ Redzone Terminal V2.0 has been completely uninstalled." -ForegroundColor Cyan
 Write-Host "Please restart your terminal for changes to take full effect.`n" -ForegroundColor Gray
