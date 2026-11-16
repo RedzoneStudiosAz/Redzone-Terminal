@@ -17,7 +17,7 @@
 
 ## 📸 Preview
 
-<img width="1360" height="715" alt="Redzone Terminal Preview" src="https://github.com/user-attachments/assets/e1155a8f-c92f-4c5d-ae6b-f0ba3edee84d" />
+<img width="1365" height="717" alt="image" src="https://github.com/user-attachments/assets/602d09f3-c4cd-4a06-91d1-524918c1b5de" />
 
 ---
 
